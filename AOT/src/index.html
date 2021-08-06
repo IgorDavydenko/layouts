@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>AOT responsive layout</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.min.css"/>
-    <title>Layout template</title>
 </head>
 <body>
-    @@include('_header.html')
-    <main class="main">
-        
-    </main>
+    <div class="wrapper">
+        <div class="page">
+            @@include('_header.html')
+            <main class="main-screen">
+                <div class="main-screen__bg ibg">
+                    <img src="img/bg_main.jpg" />
+                </div>
+            </main>
+            <div class="content">
+
+            </div>
+            @@include('_footer.html')
+        </div>
+    </div>
     <script src="js/script.min.js"></script>
 </body>
 </html>
