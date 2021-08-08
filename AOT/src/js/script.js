@@ -13,4 +13,13 @@ function ibg() {
     }
 }
 
+
+// const headerMenu = document.getElementsByClassName('header__menu')
+// console.log(headerMenu)
+// headerMenu.addEventListener('click', (event) => {
+//     console.log('handleBurger')
+
+// })
+
+
 ibg()
