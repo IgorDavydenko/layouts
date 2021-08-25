@@ -1,8 +1,3 @@
-// $('.icon-menu').click(function(event) {
-//     $(this).toogleClass('active');
-//     $('menu__body').toogleClass('active');
-//     $('body').toogleClass('lock');
-// })
 
 function ibg() {
     let ibg = document.querySelectorAll(".ibg");
@@ -13,13 +8,19 @@ function ibg() {
     }
 }
 
+function burgeMenuHandler() {
+    const headerMenu = document.getElementById('headerMenu')
+    headerMenu.addEventListener('click', (event) => {
 
-// const headerMenu = document.getElementsByClassName('header__menu')
-// console.log(headerMenu)
-// headerMenu.addEventListener('click', (event) => {
-//     console.log('handleBurger')
-
-// })
+        if (event.target.nodeName
+            && event.target.nodeName.toLowerCase() == 'span') {
+            
+            document.getElementById('iconMenu').classList.toggle('active')
+            document.getElementById('iconMenuBody').classList.toggle('active')
+        }
+    })
+}
 
 
 ibg()
+burgeMenuHandler()
