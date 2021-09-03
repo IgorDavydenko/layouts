@@ -24,7 +24,9 @@ aside, nav, footer, header, section {
 
 html, body {
     height: 100%;
+    width: 100%;
     min-width: $min-width;
+    position: relative;
 }
 
 body {

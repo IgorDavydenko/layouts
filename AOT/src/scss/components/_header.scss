@@ -78,7 +78,7 @@
 			left: 0;
 			background-color: #4d4959;
 			padding: 150px 0 20px 0;
-			@include tr(0px, 100%, 0px);
+			@include tr(0px, -100%, 0px);
 			@include anim(0.3s, 0s);
 			&.active {
 				@include tr(0px, 0px, 0px);

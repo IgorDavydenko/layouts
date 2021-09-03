@@ -1,0 +1,33 @@
+.generation {
+    padding: 120px 0;
+    background-color: #f7f7f7;
+
+    @media (max-width: 900px) {
+        padding: 80px 0;
+    }
+    @media (max-width: 600px) {
+        padding: 30px 0;
+    }
+}
+
+.block {
+    text-align: center;
+
+	&__icon {
+        margin: 0px 0px 30px 0px;
+    }
+	&__title {
+        color: #353738;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+        text-transform: uppercase;
+        letter-spacing: 3.6px;
+        margin: 0px 0px 18px 0px;
+    }
+	&__text {
+        color: #848789;
+        font-size: 18px;
+        line-height: 34px;
+    }
+}
